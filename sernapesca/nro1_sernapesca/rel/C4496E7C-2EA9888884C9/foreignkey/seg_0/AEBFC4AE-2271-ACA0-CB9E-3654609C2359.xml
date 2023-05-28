@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEBFC4AE-2271-ACA0-CB9E-3654609C2359" containerWithKeyObject="6C6CF232-5B20-47BF-3B6A-1AE38A88D35F" localFKIndex="F1D3292D-C044-384B-42D6-A0DFBC291002" name="ESTRUC_INST_DIMENSIONES_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>098C4D87-76E3-A268-6590-000E44C94E3A</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>DIMENSIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22525A62-6EF1-19C3-7AD4-909F734C3D11</referredTableID>
+<keyObject>63490AEC-211A-A04C-B1D7-865B0789CF12</keyObject>
+<referredKeyID>63490AEC-211A-A04C-B1D7-865B0789CF12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_ESTANQUE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

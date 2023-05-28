@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07336F2D-D1E1-FE38-43EE-80694D590FFD" containerWithKeyObject="F6B7153E-810D-747E-A92F-F02018A9CBA0" localFKIndex="1C0C1D96-04CB-9DC4-7C09-B22BF04AD3FD" name="ANTEC_SECTOR_COMUNA_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>0C0861DF-85DE-0230-8FDA-4EB4C2211199</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>COMUNA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B8C2CE9-270D-DEFB-C02E-934CF9B54A14</referredTableID>
+<keyObject>4F2772C0-F673-B11F-1A15-377F10784784</keyObject>
+<referredKeyID>4F2772C0-F673-B11F-1A15-377F10784784</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SOLICITUD,COD_COMUNA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

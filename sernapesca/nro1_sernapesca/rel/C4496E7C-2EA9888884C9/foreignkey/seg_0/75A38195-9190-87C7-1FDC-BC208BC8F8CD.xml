@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75A38195-9190-87C7-1FDC-BC208BC8F8CD" containerWithKeyObject="A800D3BE-5897-A6EC-94FD-3B6AC72C2DF7" localFKIndex="8FC51600-D653-1C74-61F3-A3D8F9BFECE6" name="ESPEC_MANTENER_TIPO_SOLICITUD_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>7E4D73E8-86D2-5B4C-FDDB-DFA9E7320BB4</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>TIPO_SOLICITUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B07EEE94-BDC0-0F67-25B2-D41F2AFAF990</referredTableID>
+<keyObject>2401BDC2-1126-60FF-A30C-C6BDCA19DBAB</keyObject>
+<referredKeyID>2401BDC2-1126-60FF-A30C-C6BDCA19DBAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SOLICITUD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

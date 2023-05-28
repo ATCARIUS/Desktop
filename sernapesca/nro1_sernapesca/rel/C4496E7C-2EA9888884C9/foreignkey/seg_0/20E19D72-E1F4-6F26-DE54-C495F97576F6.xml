@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20E19D72-E1F4-6F26-DE54-C495F97576F6" containerWithKeyObject="6C6CF232-5B20-47BF-3B6A-1AE38A88D35F" localFKIndex="E8A2B733-B776-7A52-C7BD-84DCC31E7FF5" name="ESTRUC_INST_ANTEC_SECTOR_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>9E2C5EB2-FF21-2562-EB75-177AAEE081FF</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>ANTEC_SECTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6B7153E-810D-747E-A92F-F02018A9CBA0</referredTableID>
+<keyObject>08C7F8B4-93F3-3CD3-5C78-AFC7AB7EB5B2</keyObject>
+<referredKeyID>08C7F8B4-93F3-3CD3-5C78-AFC7AB7EB5B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SOLICITUD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

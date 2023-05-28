@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C6CF232-5B20-47BF-3B6A-1AE38A88D35F" name="ESTRUC_INST">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>EAB93114-59D6-662B-7A60-DB729D884B03</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOLICITUD" id="5EEFB77D-12A3-6470-D478-55039127F89E">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>F92C0B33-7189-BD1B-541C-59EFD13D507A</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ESTANQUE" id="68A72187-17AE-4215-54A3-AFCDABCD67BC">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>99ED34B4-6BAC-12E5-CA4B-E47AF43303C4</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_ESTAN" id="0DF2A246-9658-A817-3660-8EF70D3EE979">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>56B6AB67-735A-D55F-01C1-E521FF250B79</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_CIRC" id="E3394379-6466-32B2-2E16-DD372D2771CE">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>9F88BF97-A58B-CA2D-1BA2-7F9482CC3A08</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NRO_RECT" id="75D0A904-0E7E-D244-8C55-6230F9058BF9">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>2FCD453F-AFB2-9524-EB53-697E3D171345</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANTEC_SECTOR_COD_SOLICITUD" id="29952BCD-23C9-0BBF-A247-CAEC0A5CE74E">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>E592864F-64B7-1526-878B-F07F11F3D7B9</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E19D72-E1F4-6F26-DE54-C495F97576F6" referredColumn="7F1C1507-6CCC-00F0-404B-A59B6CCCF251"/>
+</associations>
+</Column>
+<Column name="DIMENSIONES_COD_ESTANQUE" id="631A36FB-4122-214D-CEC9-F43BD05E3876">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>96ACC944-AC86-38BF-0C3F-01BBFF2D445C</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEBFC4AE-2271-ACA0-CB9E-3654609C2359" referredColumn="FE19A38A-C72E-C931-35C8-3E80E599FDCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="458F8110-C348-8AC8-85ED-6F1B3EA672A2" name="ESTRUC_INST_PK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>F47E80A0-0ACD-D05D-AA06-B77141F4A102</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EEFB77D-12A3-6470-D478-55039127F89E"/>
+<colUsage columnID="68A72187-17AE-4215-54A3-AFCDABCD67BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A2B733-B776-7A52-C7BD-84DCC31E7FF5" name="ESTRUC_INST_ANTEC_SECTOR_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>9E2C5EB2-FF21-2562-EB75-177AAEE081FF</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29952BCD-23C9-0BBF-A247-CAEC0A5CE74E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D3292D-C044-384B-42D6-A0DFBC291002" name="ESTRUC_INST_DIMENSIONES_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>098C4D87-76E3-A268-6590-000E44C94E3A</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631A36FB-4122-214D-CEC9-F43BD05E3876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

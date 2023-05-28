@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="76FF8F70-D0BF-87E8-2DB0-3D0E4FE1F874" containerWithKeyObject="B07EEE94-BDC0-0F67-25B2-D41F2AFAF990" localFKIndex="D62DAB30-8F72-1453-29B5-EBC7F0F7F8BB" name="TIPO_SOLICITUD_RECEPCION_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>90BB1641-CC85-AB88-2C0C-0553B6F6B5A8</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>RECEPCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E48DE2E-33ED-E152-10C2-3F0B3C86AEEA</referredTableID>
+<keyObject>8739A15A-57D7-B7A0-A43B-8D6C799259CF</keyObject>
+<referredKeyID>8739A15A-57D7-B7A0-A43B-8D6C799259CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SOLICITUD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="650F8AB6-F45E-A50D-BC6D-5E2995168085" name="SOLICITANTE">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 19:09:48 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT_SOLICITANTE" id="8E0A540F-BBD0-511C-21AE-41C766CA45B8">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 20:24:06 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SOLICITUD" id="8F62F4E0-50D4-8EBF-B530-2451B9C787F9">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 21:19:04 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_COMP" id="4626A71E-1797-7378-98C6-5EC62D726949">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 21:20:45 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="D22AD707-9718-107B-915B-8ABD420FFDF8">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 21:22:12 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="1B925C5B-971E-E824-35B1-0508AD675A6D">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 21:26:21 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_S" id="87E0BD4C-31B2-DB0B-9D86-07B1CA4CBF0F">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:42:57 UTC</createdTime>
+<generatorID>25BC3AF9-318C-13DE-6FB6-DFD02A9FD8B9</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<referedAttribute>B97C77DC-C10E-CDE5-41E5-B4A3D45FE27A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_EXTER" id="F7CD8DF9-73FC-F147-C0C4-0CC3BE4C2FA4">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:59:45 UTC</createdTime>
+<generatorID>8534955E-E53F-9336-8401-ADA662F8B0B8</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<referedAttribute>93410DDA-CC95-EBDA-4E7C-F7A6124948CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SOLICITUD1" id="8AD7855B-96F0-F973-5634-263CA6D22055">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:59:45 UTC</createdTime>
+<generatorID>8534955E-E53F-9336-8401-ADA662F8B0B8</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<referedAttribute>EFE0B303-6DA7-1FE5-0F29-FC8145C53B78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A117DF9F-E1CF-63E3-59C2-F1B23D8B8CB7" name="Solicitante PK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 20:25:21 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E0A540F-BBD0-511C-21AE-41C766CA45B8</attributeRef>
+<attributeRef>8F62F4E0-50D4-8EBF-B530-2451B9C787F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

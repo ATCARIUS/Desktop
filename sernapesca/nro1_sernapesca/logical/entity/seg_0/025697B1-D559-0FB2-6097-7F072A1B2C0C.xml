@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="025697B1-D559-0FB2-6097-7F072A1B2C0C" name="ESPEC_MANTENER">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 20:32:32 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_SOLICITUD" id="EE7F4D10-F160-B61A-296F-C776F891CFB4">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 20:32:45 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NMBRE_CMN" id="7F3D5A90-351A-2512-BF50-DAF774EDFC1B">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:16:38 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NMBRE_CTF" id="DE8C2E14-F6BE-E825-F05F-114CD39D2A0F">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:17:14 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ESPC" id="4E4F5C56-98D4-D76E-5FDE-0BAC4B09CBF1">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:17:38 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_SOLICITUD1" id="39F2132C-BEC3-F23F-F032-FA9DCC4735C6">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:02:04 UTC</createdTime>
+<generatorID>7E4D73E8-86D2-5B4C-FDDB-DFA9E7320BB4</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<referedAttribute>5BAF3E00-8F24-D39D-A389-AB26E1C42B92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5884E822-0137-7B29-62AB-FF00476655D7" name="ESPEC_MANTENER PK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 20:33:03 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE7F4D10-F160-B61A-296F-C776F891CFB4</attributeRef>
+<attributeRef>4E4F5C56-98D4-D76E-5FDE-0BAC4B09CBF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

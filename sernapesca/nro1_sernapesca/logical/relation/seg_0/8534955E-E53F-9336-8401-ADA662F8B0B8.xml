@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="8534955E-E53F-9336-8401-ADA662F8B0B8">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:59:27 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<engineerTo>
+<item key="C4496E7C-14FC-CEA8-679C-2EA9888884C9" value="true"/>
+</engineerTo>
+<sourcePk>A117DF9F-E1CF-63E3-59C2-F1B23D8B8CB7</sourcePk>
+<targetPk>D5F8AC62-0A96-86F5-1BC0-D9383926EF7B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>650F8AB6-F45E-A50D-BC6D-5E2995168085</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D2944B6C-8A53-D93F-CF66-C90D7A05C78D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

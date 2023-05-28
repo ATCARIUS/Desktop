@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nro1_sernapesca" id="312676AD-890B-6099-EDCE-21174ADD5CC7" version="3.5">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 18:36:10 UTC</createdTime>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>312676AD-890B-6099-EDCE-21174ADD5CC7</designId>
+</OSDM_Design>

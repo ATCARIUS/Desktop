@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A800D3BE-5897-A6EC-94FD-3B6AC72C2DF7" name="ESPEC_MANTENER">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>025697B1-D559-0FB2-6097-7F072A1B2C0C</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOLICITUD" id="BB0F3628-6B29-F36E-8D1D-C67D9E59FE18">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>EE7F4D10-F160-B61A-296F-C776F891CFB4</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NMBRE_CMN" id="6052CB88-D2F2-C660-EA2B-FAB4E8D2AB94">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>7F3D5A90-351A-2512-BF50-DAF774EDFC1B</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NMBRE_CTF" id="D5CAA79B-288A-6067-EFB1-9C0D4806EF6D">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>DE8C2E14-F6BE-E825-F05F-114CD39D2A0F</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_ESPC" id="B0C74E56-190D-0C75-5A18-4624CAB9E495">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>4E4F5C56-98D4-D76E-5FDE-0BAC4B09CBF1</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SOLICITUD_COD_SOLICITUD" id="AB44E45F-5C89-927F-1D19-AD9A994562B5">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>39F2132C-BEC3-F23F-F032-FA9DCC4735C6</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75A38195-9190-87C7-1FDC-BC208BC8F8CD" referredColumn="3C410274-F67C-8AF7-3EF9-827A9ABF5DB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08CC726E-AF72-DFCE-7FF0-13C274FBEF65" name="ESPEC_MANTENER_PK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>5884E822-0137-7B29-62AB-FF00476655D7</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB0F3628-6B29-F36E-8D1D-C67D9E59FE18"/>
+<colUsage columnID="B0C74E56-190D-0C75-5A18-4624CAB9E495"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FC51600-D653-1C74-61F3-A3D8F9BFECE6" name="ESPEC_MANTENER_TIPO_SOLICITUD_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>7E4D73E8-86D2-5B4C-FDDB-DFA9E7320BB4</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB44E45F-5C89-927F-1D19-AD9A994562B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

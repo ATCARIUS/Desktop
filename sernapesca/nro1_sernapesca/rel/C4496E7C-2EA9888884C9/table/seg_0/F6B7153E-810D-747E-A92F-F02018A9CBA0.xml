@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6B7153E-810D-747E-A92F-F02018A9CBA0" name="ANTEC_SECTOR">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>67F1F0B4-4AA1-4C1B-BE66-3172D35561D7</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SOLICITUD" id="7F1C1507-6CCC-00F0-404B-A59B6CCCF251">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>EF1E0802-0431-8B9C-756E-1B9C3F113354</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTOR" id="252D145E-A39B-EDAA-4311-92F7891373B9">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>2FE65969-EFA0-7815-4A59-7533D9D13824</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION" id="A0EEAEAC-22CE-7EE6-A866-1E7E654601D3">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>46991543-3035-F1D7-CDC4-47634885D1D8</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERTICE" id="A94739AB-1679-467B-28D3-7063BBF62462">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>C21198CA-1FB8-B717-FE6E-A4C149B1B106</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAT_S" id="D985BDD6-FC2A-55A1-5490-4E8C0B600873">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>5D0ADF7C-CB09-9E91-73CF-8699363F1EEB</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONG_W" id="7AD9B646-C290-E2EF-A96C-D4AE56806DE8">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>C87B99C1-4202-9252-C188-D49B289A11A8</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENT_ACOP" id="A0012448-3FF4-B6D2-255D-F4ED76B9BBB7">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>9A7BD4C1-CB29-73A4-4001-B930428A838F</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENT_FAE" id="333076DA-48C9-EFC1-6532-0E082FA6B4A7">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>E2FB4CC3-1CEC-2F06-CD5D-8021FFE5102C</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_IGM" id="CEF6B96C-8BCD-F24D-AB02-2EA718198807">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>656F8D07-EFA1-6EE7-333D-8A1D505E7B45</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTRS_CAR" id="33EA4ACC-5C63-9E08-E9B1-485B907D21C4">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>4E55BD0E-42DA-C030-2D8D-5F120095A370</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SOLICITUD_COD_SOLICITUD" id="67ED865B-61DA-9F5E-7E7B-2E4AC646090C">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>92502A27-9779-FE3A-209B-29A92C77A5C2</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="814D0CE4-536E-8C4D-060D-25368E9617CA" referredColumn="3C410274-F67C-8AF7-3EF9-827A9ABF5DB1"/>
+</associations>
+</Column>
+<Column name="COMUNA_COD_SOLICITUD" id="7BB4484C-B74A-374E-BDDC-4224E4CD1FAF">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>9274F6B9-36FF-C556-09EA-80D3B5374176</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07336F2D-D1E1-FE38-43EE-80694D590FFD" referredColumn="F1189D6F-7A10-8B1B-3B02-C2CF18392EF2"/>
+</associations>
+</Column>
+<Column name="COMUNA_COD_COMUNA" id="F628AAF5-C142-E239-4786-BB86C8BCB0D9">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>77CCF811-391D-23FB-1572-7EF6E12E9C3C</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07336F2D-D1E1-FE38-43EE-80694D590FFD" referredColumn="62ED19B1-E7A7-DF15-7197-DEADA3F2A50F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08C7F8B4-93F3-3CD3-5C78-AFC7AB7EB5B2" name="ANTEC_SECTOR_PK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 22:39:17 UTC</createdTime>
+<generatorID>E18084A8-CCA1-FF5B-86F1-E123F8FFE72C</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F1C1507-6CCC-00F0-404B-A59B6CCCF251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B5E1BDD-AC01-15B4-8BB9-976744C1F2FF" name="ANTEC_SECTOR_TIPO_SOLICITUD_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>1463CCE1-483B-2CD2-01C8-75D3C601E029</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67ED865B-61DA-9F5E-7E7B-2E4AC646090C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C0C1D96-04CB-9DC4-7C09-B22BF04AD3FD" name="ANTEC_SECTOR_COMUNA_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>0C0861DF-85DE-0230-8FDA-4EB4C2211199</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB4484C-B74A-374E-BDDC-4224E4CD1FAF"/>
+<colUsage columnID="F628AAF5-C142-E239-4786-BB86C8BCB0D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

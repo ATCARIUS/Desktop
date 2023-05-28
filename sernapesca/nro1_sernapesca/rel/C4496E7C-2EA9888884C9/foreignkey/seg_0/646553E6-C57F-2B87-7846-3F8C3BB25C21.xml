@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="646553E6-C57F-2B87-7846-3F8C3BB25C21" containerWithKeyObject="B07EEE94-BDC0-0F67-25B2-D41F2AFAF990" localFKIndex="4F3723A2-FF5A-C2CE-7111-D5CC4C54F370" name="TIPO_SOLICITUD_RPS_EXTERNO_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:03:32 UTC</createdTime>
+<generatorID>98F2D333-6290-E275-F70A-714DEA844094</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>RPS_EXTERNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>948BF45C-2FEF-E765-945C-A9B467B6DDD3</referredTableID>
+<keyObject>29F1FE79-7936-02D7-990B-EC729CF54796</keyObject>
+<referredKeyID>29F1FE79-7936-02D7-990B-EC729CF54796</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_EXTER,COD_SOLICITUD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

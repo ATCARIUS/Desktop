@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D06F4585-7A93-5418-3049-4FA91EE54919" containerWithKeyObject="B9F67F3F-1F61-DA7C-2F83-831CBE974DAA" localFKIndex="2B44C370-A65A-A6AB-B577-18038622FDCA" name="DIRECCION_S_SOLICITANTE_FK">
+<createdBy>EGOGOD</createdBy>
+<createdTime>2023-05-28 23:13:49 UTC</createdTime>
+<generatorID>25BC3AF9-318C-13DE-6FB6-DFD02A9FD8B9</generatorID>
+<ownerDesignName>nro1_sernapesca</ownerDesignName>
+<referredTableLongName>SOLICITANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A7D7BBC-8198-A93F-8535-E537DE9D47F4</referredTableID>
+<keyObject>69FB4F03-BD2E-0591-699F-51001D456C43</keyObject>
+<referredKeyID>69FB4F03-BD2E-0591-699F-51001D456C43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_SOLICITANTE,COD_SOLICITUD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
